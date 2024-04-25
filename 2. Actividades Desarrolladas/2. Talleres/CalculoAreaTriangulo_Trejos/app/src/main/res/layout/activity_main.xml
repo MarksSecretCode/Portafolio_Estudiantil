@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/rb_Equilateral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Equilátero" />
+
+        <RadioButton
+            android:id="@+id/rb_Isosceles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Isósceles" />
+
+        <RadioButton
+            android:id="@+id/rb_Scalene"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Escaleno" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/et_SideA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lado A"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/radioGroup"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/et_SideB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lado B"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/radioGroup"
+        android:layout_marginTop="48dp"/>
+
+    <EditText
+        android:id="@+id/et_SideC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lado C"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/radioGroup"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/btn_Calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:layout_below="@id/et_SideC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_Calculate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

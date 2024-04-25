@@ -1,0 +1,15 @@
+Documentation de AndroidStudio:
+https://developer.android.com/develop?hl=es-419
+
+Descargar Android Studio para MacOs:
+https://www.youtube.com/watch?v=8ILww0tUSxw&ab_channel=ProgrammingKnowledge
+
+Cambiar icono de la App:
+https://www.youtube.com/watch?v=m6qBOTjZ4Lw&ab_channel=SandipBhattacharya
+
+Crear base de datos con SQLite:
+https://www.youtube.com/watch?v=iWQIXjQ8ucA&ab_channel=C%C3%B3digosdeProgramaci%C3%B3n-MR
+
+Conectar Elementos del archivo xml con el MainActivity:
+https://www.youtube.com/watch?v=wvLnO1zzAMM&ab_channel=LeopoldoMorales
+
